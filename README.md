@@ -34,12 +34,12 @@ mainブランチは空とする。
 ## 組み込みライブラリのコミットハッシュ
 メインデータパックには2つのでライブラリデータパックが組み込まれている。
 
-* MCCMD-ScoreDamage  
-  tag: `3.3-1.20.2`  
-  commit: `603e91b`
-* SmartMotion  
+* [ChenCMD/MCCMD-ScoreDamage](https://github.com/ChenCMD/MCCMD-ScoreDamage)  
+  tag: [`3.3-1.20.2`](https://github.com/ChenCMD/MCCMD-ScoreDamage/releases/tag/3.3-1.20.2)  
+  commit: [`603e91b`](https://github.com/ChenCMD/MCCMD-ScoreDamage/tree/3.3-1.20.2)
+* [Irohamaru/SmartMotion](https://github.com/Irohamaru/SmartMotion)  
   tag:  
-  commit: `78a7c70`
+  commit: [`78a7c70`](https://github.com/Irohamaru/SmartMotion/tree/78a7c70401a6a4a76bacc1a253aaaec15d045a16)
 
 ## 1-20-4へのお知らせ
 1-20-4では未配布のライブラリデータパックが3つ必要である。
