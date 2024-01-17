@@ -1,5 +1,5 @@
 # TheUnusualSkyBlock-Datapacks
-配布マップ「TheUnusualSkyBlock」のメインデータパックとライブラリデータパックの管理リポジトリ
+配布マップ「TheUnusualSkyBlock」のライブラリデータパックの管理リポジトリ
 
 ## 導入方法
 git bash もしくはコマンドプロンプトで以下を実行する。
@@ -23,4 +23,5 @@ git clone --recurse-submodules https://github.com/TUSB/TheUnusualSkyBlock-Datapa
 mainブランチは空とする。  
 例：製作に使用するMinecraftバージョンが1.19.4ならば`1-19-4`ブランチをmainブランチからチェックアウトする。  
 
-メインデータパックとライブラリデータパックはgitサブモジュール機能を使ってこのリポジトリに導入する。
+ライブラリデータパックはgitサブモジュール機能を使ってこのリポジトリに導入する。  
+メインデータパックはこのリポジトリで管理されることは無いが、同じ`datapacks`の中へクローンする。
