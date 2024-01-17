@@ -1,4 +1,22 @@
 *.zip
+*.dat
+.idea/*
+*.iml
+.DS_Store
+*.cache
+*/tmp
+.git/
+*.swp
+*.bak
+*.py
+*.exe
+*.spec
+*.csv
+__pycache__/*
+build/*
+dist/*
+.vscode
+
 
 # メインデータパックの除外
-TheUnusualSkyBlock
+/TheUnusualSkyBlock*
