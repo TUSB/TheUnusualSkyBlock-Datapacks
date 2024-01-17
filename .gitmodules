@@ -1,0 +1,15 @@
+[submodule "ScoreToHealth"]
+	path = ScoreToHealth
+	url = https://github.com/Ai-Akaishi/ScoreToHealth
+[submodule "OhMyDat"]
+	path = OhMyDat
+	url = https://github.com/Ai-Akaishi/OhMyDat
+[submodule "AnywhereFunction"]
+	path = AnywhereFunction
+	url = https://github.com/Ai-Akaishi/AnywhereFunction
+[submodule "AnywhereTeleport"]
+	path = AnywhereTeleport
+	url = https://github.com/Ai-Akaishi/AnywhereTeleport
+[submodule "AiUtil"]
+	path = AiUtil
+	url = https://github.com/Ai-Akaishi/AiUtil

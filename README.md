@@ -1,6 +1,9 @@
 # TheUnusualSkyBlock-Datapacks
 配布マップ「TheUnusualSkyBlock」のライブラリデータパックの管理リポジトリ
 
+> [!IMPORTANT]  
+> このブランチはMinecraft 1.19.4で開発するためのライブラリ環境です。
+
 ## 導入方法
 git bash もしくはコマンドプロンプトで以下を実行する。
 
@@ -14,9 +17,10 @@ git clone --recurse-submodules https://github.com/TUSB/TheUnusualSkyBlock-Datapa
 このリポジトリを`datapacks`ディレクトリへクローンする。  
 `--recurse-submodules`のオプションは、サブモジュールも一緒にクローンすることを示している。
 
-> [!NOTE]  
-> VSCodeのコマンドでgitクローンをした場合、ディレクトリ名が`TheUnusualSkyBlock-Datapacks`になる。  
-> このリポジトリの中身はデータパックなので、手動で`datapacks`へと名前変更を行うことでワールドへ導入できる。
+> [!WARNING]  
+> VSCodeのコマンドでgitクローンをすることができるが、  
+> ディレクトリ名に決まりがあること、サブモジュールの導入が必要なことから
+> git bash もしくはコマンドプロンプトでの実行を推奨する。
 
 
 ## 運用方法
@@ -25,3 +29,19 @@ mainブランチは空とする。
 
 ライブラリデータパックはgitサブモジュール機能を使ってこのリポジトリに導入する。  
 メインデータパックはこのリポジトリで管理されることは無いが、同じ`datapacks`の中へクローンする。
+
+## 1-19-4へのお知らせ
+1-19-4では未配布のライブラリデータパックが4つ必要である。
+
+* Popup  
+  制作関連カテゴリ → 制作フォーラム → 例のダメージ表示のもの  
+  フォーラム内からダウンロードして配置する。  
+  リソースパックの導入も必要。
+* MineChachat  
+  制作関連カテゴリ → 制作フォーラム → 例の吹き出し表示のもの  
+  フォーラム内からダウンロードして配置する。
+* MineChachatHelper  
+  MineChachatと同様のフォーラム内からダウンロードして配置する。
+* zPatch  
+  [TUSBドライブ](https://drive.google.com/drive/folders/1d4JiXgHc7Q3TGVU5mp3r5sP5WDEnPKz6)からダウンロードして配置する。  
+  TUSBドライブへは製作者のみアクセス可能
