@@ -15,7 +15,7 @@ cd <world>
 git clone -b 1-19-4 --recurse-submodules https://github.com/TUSB/TheUnusualSkyBlock-Datapacks.git datapacks
 ```
 このリポジトリを`datapacks`ディレクトリへクローンする。  
-`--recurse-submodules`のオプションは、サブモジュールも一緒にクローンすることを示している。
+`--recurse-submodules`のオプションは、サブモジュールも一緒にクローンすることを示している。  
 `-b 1-19-4`のオプションは、このブランチをクローンすることを示している。
 
 > [!WARNING]  
