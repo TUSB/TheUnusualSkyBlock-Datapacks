@@ -36,7 +36,7 @@ mainブランチは空とする。
 
 * [ChenCMD/MCCMD-ScoreDamage](https://github.com/ChenCMD/MCCMD-ScoreDamage)  
   tag: [`3.3`](https://github.com/ChenCMD/MCCMD-ScoreDamage/releases/tag/3.3)  
-  commit: [`91ff473`](https://github.com/ChenCMD/MCCMD-ScoreDamage/tree/91ff4737bc598027ca37cc6e9995ea595a8bb9d6)
+  commit: [`91ff473`](https://github.com/ChenCMD/MCCMD-ScoreDamage/tree/3.3)
 * [Irohamaru/SmartMotion](https://github.com/Irohamaru/SmartMotion)  
   tag:  
   commit: [`78a7c70`](https://github.com/Irohamaru/SmartMotion/tree/78a7c70401a6a4a76bacc1a253aaaec15d045a16)
