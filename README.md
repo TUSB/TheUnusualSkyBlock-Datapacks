@@ -1,6 +1,9 @@
 # TheUnusualSkyBlock-Datapacks
 配布マップ「TheUnusualSkyBlock」のライブラリデータパックの管理リポジトリ
 
+> [!IMPORTANT]  
+> このブランチはMinecraft 1.20.4で開発するためのライブラリ環境です。
+
 ## 導入方法
 git bash もしくはコマンドプロンプトで以下を実行する。
 
@@ -9,14 +12,15 @@ cd <world>
 ```
 ここで、`<world>`は製作ワールドへのパスを指す。
 ```bash
-git clone --recurse-submodules https://github.com/TUSB/TheUnusualSkyBlock-Datapacks.git datapacks
+git clone -b 1-20-4 --recurse-submodules https://github.com/TUSB/TheUnusualSkyBlock-Datapacks.git datapacks
 ```
 このリポジトリを`datapacks`ディレクトリへクローンする。  
-`--recurse-submodules`のオプションは、サブモジュールも一緒にクローンすることを示している。
+`--recurse-submodules`のオプションは、サブモジュールも一緒にクローンすることを示している。  
+`-b 1-20-4`のオプションは、このブランチをクローンすることを示している。
 
 > [!WARNING]  
 > VSCodeのコマンドでgitクローンをすることができるが、  
-> ディレクトリ名に決まりがあること、サブモジュールの導入が必要なことから
+> ディレクトリ名に決まりがあること、サブモジュールの導入が必要なことから  
 > git bash もしくはコマンドプロンプトでの実行を推奨する。
 
 
@@ -26,3 +30,26 @@ mainブランチは空とする。
 
 ライブラリデータパックはgitサブモジュール機能を使ってこのリポジトリに導入する。  
 メインデータパックはこのリポジトリで管理されることは無いが、同じ`datapacks`の中へクローンする。
+
+## 組み込みライブラリのコミットハッシュ
+メインデータパックには2つのでライブラリデータパックが組み込まれている。
+
+* MCCMD-ScoreDamage  
+  tag: `3.3-1.20.2`  
+  commit: `603e91b`
+* SmartMotion  
+  tag:  
+  commit: `78a7c70`
+
+## 1-20-4へのお知らせ
+1-20-4では未配布のライブラリデータパックが3つ必要である。
+
+* Popup  
+  制作関連カテゴリ → 制作フォーラム → 例のダメージ表示のもの  
+  フォーラム内からダウンロードして配置する。  
+  リソースパックの導入も必要。
+* MineChachat  
+  制作関連カテゴリ → 制作フォーラム → 例の吹き出し表示のもの  
+  フォーラム内からダウンロードして配置する。
+* MineChachatHelper  
+  MineChachatと同様のフォーラム内からダウンロードして配置する。

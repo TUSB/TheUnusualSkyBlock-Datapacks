@@ -20,3 +20,8 @@ dist/*
 
 # メインデータパックの除外
 /TheUnusualSkyBlock*
+
+# 未配布データパックを一応除外
+Popup
+MineChachat
+MinechachatHelper
