@@ -20,7 +20,7 @@ git clone -b 1-19-4 --recurse-submodules https://github.com/TUSB/TheUnusualSkyBl
 
 > [!WARNING]  
 > VSCodeのコマンドでgitクローンをすることができるが、  
-> ディレクトリ名に決まりがあること、サブモジュールの導入が必要なことから
+> ディレクトリ名に決まりがあること、サブモジュールの導入が必要なことから  
 > git bash もしくはコマンドプロンプトでの実行を推奨する。
 
 
