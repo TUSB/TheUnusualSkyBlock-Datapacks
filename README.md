@@ -26,3 +26,13 @@ mainブランチは空とする。
 
 ライブラリデータパックはgitサブモジュール機能を使ってこのリポジトリに導入する。  
 メインデータパックはこのリポジトリで管理されることは無いが、同じ`datapacks`の中へクローンする。
+
+## 組み込みライブラリのコミットハッシュ
+メインデータパックには2つのでライブラリデータパックが組み込まれている。
+
+* [ChenCMD/MCCMD-ScoreDamage](https://github.com/ChenCMD/MCCMD-ScoreDamage)  
+  tag: [`template`](https://github.com/ChenCMD/MCCMD-ScoreDamage/releases/tag/)  
+  commit: [`template`](https://github.com/ChenCMD/MCCMD-ScoreDamage/tree/)
+* [Irohamaru/SmartMotion](https://github.com/Irohamaru/SmartMotion)  
+  tag:  
+  commit: [`template`](https://github.com/Irohamaru/SmartMotion/tree/)
