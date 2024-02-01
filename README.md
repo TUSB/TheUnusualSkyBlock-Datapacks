@@ -53,3 +53,6 @@ mainブランチは空とする。
   フォーラム内からダウンロードして配置する。
 * MineChachatHelper  
   MineChachatと同様のフォーラム内からダウンロードして配置する。
+* zPatch  
+  [TUSBドライブ](https://drive.google.com/drive/folders/1d4JiXgHc7Q3TGVU5mp3r5sP5WDEnPKz6)からダウンロードして配置する。  
+  TUSBドライブへは製作者のみアクセス可能
