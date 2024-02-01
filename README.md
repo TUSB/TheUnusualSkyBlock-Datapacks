@@ -18,6 +18,9 @@ git clone -b 1-20-4 --recurse-submodules https://github.com/TUSB/TheUnusualSkyBl
 `--recurse-submodules`のオプションは、サブモジュールも一緒にクローンすることを示している。  
 `-b 1-20-4`のオプションは、このブランチをクローンすることを示している。
 
+すでにワールドに`datapacks`ディレクトリが存在するときはこのコマンドは失敗する。  
+そのときは`datapacks`ディレクトリを削除してから再実行をする。
+
 > [!WARNING]  
 > VSCodeのコマンドでgitクローンをすることができるが、  
 > ディレクトリ名に決まりがあること、サブモジュールの導入が必要なことから  
