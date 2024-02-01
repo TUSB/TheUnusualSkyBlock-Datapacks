@@ -14,6 +14,9 @@ git clone --recurse-submodules https://github.com/TUSB/TheUnusualSkyBlock-Datapa
 このリポジトリを`datapacks`ディレクトリへクローンする。  
 `--recurse-submodules`のオプションは、サブモジュールも一緒にクローンすることを示している。
 
+すでにワールドに`datapacks`ディレクトリが存在するときはこのコマンドは失敗する。  
+そのときは`datapacks`ディレクトリを削除してから再実行をする。
+
 > [!WARNING]  
 > VSCodeのコマンドでgitクローンをすることができるが、  
 > ディレクトリ名に決まりがあること、サブモジュールの導入が必要なことから
