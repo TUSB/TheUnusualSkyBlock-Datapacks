@@ -1,6 +1,9 @@
 # TheUnusualSkyBlock-Datapacks
 配布マップ「TheUnusualSkyBlock」のライブラリデータパックの管理リポジトリ
 
+> [!IMPORTANT]  
+> このブランチはMinecraft 1.21.1で開発するためのライブラリ環境です。
+
 ## 導入方法
 git bash もしくはコマンドプロンプトで以下を実行する。
 
@@ -9,10 +12,11 @@ cd <world>
 ```
 ここで、`<world>`は製作ワールドへのパスを指す。
 ```bash
-git clone --recurse-submodules https://github.com/TUSB/TheUnusualSkyBlock-Datapacks.git datapacks
+git clone -b 1-21-1 --recurse-submodules https://github.com/TUSB/TheUnusualSkyBlock-Datapacks.git datapacks
 ```
 このリポジトリを`datapacks`ディレクトリへクローンする。  
-`--recurse-submodules`のオプションは、サブモジュールも一緒にクローンすることを示している。
+`--recurse-submodules`のオプションは、サブモジュールも一緒にクローンすることを示している。  
+`-b 1-21-4`のオプションは、このブランチをクローンすることを示している。
 
 すでにワールドに`datapacks`ディレクトリが存在するときはこのコマンドは失敗する。  
 そのときは`datapacks`ディレクトリを削除してから再実行をする。
@@ -35,4 +39,20 @@ mainブランチは空とする。
 
 * [Irohamaru/SmartMotion](https://github.com/Irohamaru/SmartMotion)  
   tag:  
-  commit: [`template`](https://github.com/Irohamaru/SmartMotion/tree/)
+  commit: [`78a7c70`](https://github.com/Irohamaru/SmartMotion/tree/78a7c70)
+
+## 1-21-1へのお知らせ
+1-21-1では未配布のライブラリデータパックが3つ必要である。
+
+* Popup  
+  制作関連カテゴリ → 制作フォーラム → 例のダメージ表示のもの  
+  フォーラム内からダウンロードして配置する。  
+  リソースパックの導入も必要。
+* MineChachat  
+  制作関連カテゴリ → 制作フォーラム → 例の吹き出し表示のもの  
+  フォーラム内からダウンロードして配置する。
+* MineChachatHelper  
+  MineChachatと同様のフォーラム内からダウンロードして配置する。
+* zPatch  
+  [TUSBドライブ](https://drive.google.com/drive/folders/1d4JiXgHc7Q3TGVU5mp3r5sP5WDEnPKz6)からダウンロードして配置する。  
+  TUSBドライブへは製作者のみアクセス可能
