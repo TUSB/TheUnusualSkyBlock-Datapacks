@@ -19,7 +19,7 @@ git clone --recurse-submodules https://github.com/TUSB/TheUnusualSkyBlock-Datapa
 
 > [!WARNING]  
 > VSCodeのコマンドでgitクローンをすることができるが、  
-> ディレクトリ名に決まりがあること、サブモジュールの導入が必要なことから
+> ディレクトリ名に決まりがあること、サブモジュールの導入が必要なことから  
 > git bash もしくはコマンドプロンプトでの実行を推奨する。
 
 
@@ -31,11 +31,8 @@ mainブランチは空とする。
 メインデータパックはこのリポジトリで管理されることは無いが、同じ`datapacks`の中へクローンする。
 
 ## 組み込みライブラリのコミットハッシュ
-メインデータパックには2つのでライブラリデータパックが組み込まれている。
+メインデータパックには1つのライブラリデータパックが組み込まれている。
 
-* [ChenCMD/MCCMD-ScoreDamage](https://github.com/ChenCMD/MCCMD-ScoreDamage)  
-  tag: [`template`](https://github.com/ChenCMD/MCCMD-ScoreDamage/releases/tag/)  
-  commit: [`template`](https://github.com/ChenCMD/MCCMD-ScoreDamage/tree/)
 * [Irohamaru/SmartMotion](https://github.com/Irohamaru/SmartMotion)  
   tag:  
   commit: [`template`](https://github.com/Irohamaru/SmartMotion/tree/)
